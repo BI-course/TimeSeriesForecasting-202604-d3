@@ -28,9 +28,9 @@
 
 | **Details**                                                                                        | **Comment** |
 |:---------------------------------------------------------------------------------------------------|:------------|
-| **Student ID:**                                                                                    |             |
-| **Name:**                                                                                          |             |
-| **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** |             |
+| **Student ID:** | 169179 |
+| **Name:** | Jakin Kipkorir |
+| **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** | I implemented the multi-horizon NFLX forecasting comparison, including Naive, Simple Exponential Smoothing, Drift, Ridge Regression and Gradient Boosting. I also worked on walk-forward validation, performance metrics, Diebold–Mariano tests and the portfolio-manager report. I learnt how to evaluate forecasting models across different horizons, compare complex models against simple benchmarks, and interpret statistical tests. |
 
 **Member 4**
 

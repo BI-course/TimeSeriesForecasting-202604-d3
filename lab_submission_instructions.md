@@ -42,11 +42,11 @@
 
 **Member 5**
 
-| **Details**                                                                                        | **Comment** |
-|:---------------------------------------------------------------------------------------------------|:------------|
-| **Student ID:**                                                                                    |             |
-| **Name:**                                                                                          |             |
-| **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** |             |
+| **Details**                                                                                        | **Comment**   |
+|:---------------------------------------------------------------------------------------------------|:--------------|
+| **Student ID:**                                                                                    | 151189        |
+| **Name:**                                                                                          | SABIAN HASSAN |
+| **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** |    I ran the multi-horizon forecast for NFLX (Notebook 7) at horizons of 1, 5, 21 and 63 days, built the 63-day gradient boosting forecast with a 10%-90% range, and combined it with a naive and a drift forecast in data/forecast_intermediate.csv. I built the Power BI dashboard (line chart comparing the methods, forecast table and error-metrics table, using Jakin's metrics file) and wrote the explanation of why skill changes with the horizon. I learnt that the model never beat the naive forecast and got relatively worse as the horizon grew, that overlapping labels need a gap in walk-forward validation to avoid leakage, that the 10%-90% range became overconfident at long horizons (66.5% coverage at 63 days against the 80% target), and how to combine my teammates' outputs through branches and pull requests on GitHub.           |
 
 ## Scenario
 
